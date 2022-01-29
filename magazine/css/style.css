@@ -1,0 +1,679 @@
+*{padding: 0;margin: 0;}
+
+.header {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    background-color: black;
+}
+
+.logo-header {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 84px;
+    top: 12px;
+}
+
+/* ссылки */
+
+.one {
+    position: absolute;
+    width: 89px;
+    height: 17px;
+    left: 439px;
+    top: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;     
+    color: #FFFFFF; 
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.two {
+    position: absolute;
+    width: 73px;
+    height: 14.17px;
+    left: 585px;
+    top: 18.89px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.three {
+    position: absolute;
+    width: 81px;
+    height: 12.28px;
+    left: 715px;
+    top: 18.89px;   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;     
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.four {
+    position: absolute;
+    width: 73px;
+    height: 13.22px;
+    left: 853px;
+    top: 18.89px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.korz {   
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 1229px;
+    top: 11px;
+}
+
+.text-korz {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 57px;
+    height: 13px;
+    left: 1270px;
+    top: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* text-header-hover */
+
+.one:hover {
+    color: rgb(20, 223, 81);
+    transition: 0.4s;
+}
+
+.two:hover {
+    color: rgb(20, 223, 81);
+    transition: 0.4s;
+}
+
+.three:hover {
+    color: rgb(20, 223, 81);
+    transition: 0.4s;
+}
+
+.four:hover {
+    color: rgb(20, 223, 81);
+    transition: 0.4s;
+}
+
+/* фон и текст */
+
+.font-text {
+    background: url(../img/фон.png) no-repeat;
+    width: 100%;
+    background-position: center 0;
+    height: 695px;
+    left: -11px;
+    top: 50px; ;
+}
+
+/* cтрелки слайдера */
+
+/* .strelkaone {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    left: 206px;
+    top: 420px;
+    transform: rotate(-180deg);
+} */
+
+.strelkatwo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1360px;
+    top: 389px;
+}
+
+.container {
+    background: #aaaaaa;
+}
+
+.thunder {
+    position: absolute;
+    width: 73px;
+    height: 14.17px;
+    left: 565px;
+    top: 189px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.thunder2 {
+    position: absolute;
+    width: 73px;
+    height: 14.17px;
+    left: 555px;
+    top: 179px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.storm {
+    position: absolute;
+    width: 73px;
+    height: 14.17px;
+    left: 755px;
+    top: 245px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.storm2 {
+    position: absolute;
+    width: 73px;
+    height: 14.17px;
+    left: 745px;
+    top: 235px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* <!--------------> */
+
+.sr {
+    position: absolute;
+    width: 458px;
+    height: 65px;
+    left: 147px;
+    top: 843px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.185em;
+    color: #000000;
+}
+
+.ellipse {
+    position: absolute;
+    width: 40.94px;
+    height: 40.94px;
+    left: 140px;
+    top: 932.53px;
+    background: url(image.png);   
+}
+
+.design {
+    position: absolute;
+    width: 229px;
+    height: 54px;
+    left: 147px;
+    top: 998px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 40.94px;
+    height: 40.94px;
+    left: 422.68px;
+    top: 932.53px;
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.design2 {
+    position: absolute;
+    width: 229px;
+    height: 54px;
+    left: 416px;
+    top: 998px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+
+.ellipse3 {
+    position: absolute;
+    width: 40.94px;
+    height: 40.94px;
+    left: 693.53px;
+    top: 932.53px;
+    background: url(image.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.design3 {    
+    position: absolute;
+    width: 229px;
+    height: 54px;
+    left: 685px;
+    top: 998px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.tovar {
+    position: absolute;
+    width: 458px;
+    height: 65px;
+    left: 147px;
+    top: 1244px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0%;
+    /* or 0px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.185em;
+    color: #000000;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 147px;
+    top: 1340px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.fo {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0%;
+    /* or 0px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.185em;
+    color: #000000;
+    /* Inside auto layout */
+}
+/* <!------------------------> */
+.photo-s {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 147px;
+    top: 1458px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+}
+
+.photo-s2 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 531px;
+    top: 1459px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+}
+
+
+.photo-s3 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 926px;
+    top: 1459px;
+
+}
+
+.block2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 147px;
+    top: 1900px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.fo2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0%;
+    /* or 0px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.185em;    
+}
+
+.photo-d {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 147px;
+    top: 2016px;
+    background: #EBEBEB;
+    /* Карточки товаров */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.photo-d2 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 531px;
+    top: 2017px;
+}
+
+.photo-d3 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 926px;
+    top: 2017px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.block10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 178px;
+    height: 48px;
+    left: 147px;
+    top: 2454px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.fo10 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0%;
+    /* or 0px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.185em;    
+}
+
+.photo-10 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 147px;
+    top: 2574px;
+}
+
+.photo-20 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 531px;
+    top: 2575px;
+}
+
+.photo-30 {
+    position: absolute;
+    width: 293px;
+    height: 357px;
+    left: 926px;
+    top: 2575px;
+}
+
+.otz {
+    position: absolute;
+    width: 498px;
+    height: 55px;
+    left: 147px;
+    top: 3011px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0%;
+    /* or 0px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.185em;
+    color: #000000;
+}
+
+/* <!---------------->  */
+
+.q1 {
+    position: absolute;
+    width: 313px;
+    height: 277px;
+    left: 147px;
+    top: 3145px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.q2 {
+    position: absolute;
+    width: 313px;
+    height: 396px;
+    left: 526px;
+    top: 3145px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.q3 {
+    position: absolute;
+    width: 313px;
+    height: 277px;
+    left: 906px;
+    top: 3145px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.q4 {
+    position: absolute;
+    width: 313px;
+    height: 396px;
+    left: 147px;
+    top: 3541px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.q5 {
+    position: absolute;
+    width: 313px;
+    height: 277px;
+    left: 526px;
+    top: 3660px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.q6 {
+    position: absolute;
+    width: 313px;
+    height: 396px;
+    left: 906px;
+    top: 3541px;
+    background: url(image.png);
+    /* Карточки товаров */
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.footer {
+    position: absolute;
+    width:100%;
+    height: 220px;
+    left: 0px;
+    top: 4171px;
+    background: linear-gradient(91.02deg, #1A1A1A 0.87%, rgba(35, 35, 35, 0.87) 99.13%);
+}
+
+.contacts {
+    padding-top: 60px;
+    padding-left: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.185em;
+    color: #FFFFFF;
+}   
+
+.vk {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    margin-top: 50px;
+    margin-left: 140px;
+    background: url(image.png);
+}
+
+.insta {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background: url(image.png);
+}
+
+.telega {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 260px;
+    background: url(image.png);
+}
+
+.nomer {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 320px;
+    background: url(image.png);
+}
+
